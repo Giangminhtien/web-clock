@@ -1,5 +1,7 @@
 .hour, .minute, .point {
   margin: 0px;
+
+  font-size: 130px;
 }
 
 .container {
