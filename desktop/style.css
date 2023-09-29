@@ -30,3 +30,8 @@
 .container:hover {
   transform: scale(105%, 105%);
 }
+
+body {
+  background-image: url("https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg");
+  background-size: 100%;
+}
