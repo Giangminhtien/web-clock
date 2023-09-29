@@ -5,6 +5,7 @@
 
   font-size: 130px;
   font-family: 'JetBrains Mono', monospace;
+  -webkit-text-fill-color: white;
 }
 
 .container {
