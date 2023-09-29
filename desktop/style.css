@@ -23,4 +23,10 @@
   margin-top: 15%;
 
   padding: 40px;
+
+  transition: transform 0.5s;
+}
+
+.container:hover {
+  transform: scale(102%, 102%);
 }
