@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Montserrat:wght@500&display=swap');
+
 .container {
   background: rgba( 255, 255, 255, 0.3 );
   box-shadow: 0 8px 32px 0 rgba(120, 129, 255, 0.37);
@@ -15,4 +17,5 @@
   margin: 0%;
 
   font-size: 120px;
+  font-family: 'JetBrains Mono', monospace;
 }
