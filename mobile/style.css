@@ -4,4 +4,11 @@
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
+
+  width: fit-content;
+}
+
+.hour, .minute {
+  width: 20px;
+  height: 20px;
 }
