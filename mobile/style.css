@@ -9,6 +9,6 @@
 }
 
 .hour, .minute {
-  width: 20px;
-  height: 20px;
+  width: fit-content;
+  height: fit-content;
 }
