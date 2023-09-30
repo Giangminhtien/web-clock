@@ -9,8 +9,6 @@ function updateTime() {
 
   document.getElementById("hour").innerHTML = hour;
   document.getElementById("minute").innerHTML = minute;
-
-  setInterval(1000);
 }
 
 function addZero(number) {
@@ -22,3 +20,4 @@ function addZero(number) {
 }
 
 updateTime();
+setInterval(updateTime, 1000);
