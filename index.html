@@ -8,13 +8,17 @@
 <body>
   <p>Redirect. . .</p>
   <script>
-    const sWidth = window.innerWidth;
+    function redirect() {
+      const sWidth = window.innerWidth;
 
-    if (sWidth < 576) {
+      if (sWidth < 576) {
       window.location.href = "mobile/index.html";
-    } else {
+      } else {
       window.location.href = "desktop/index.html";
+      }
     }
+
+    setTimeout(redirect, 1000);
   </script>
 </body>
 </html>
