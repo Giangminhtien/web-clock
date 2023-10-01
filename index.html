@@ -7,5 +7,14 @@
 </head>
 <body>
   <p>Redirect. . .</p>
+  <script>
+    const sWidth = window.innerWidth;
+
+    if (sWidth < 576) {
+      window.location.href = "mobile/index.html";
+    } else {
+      window.location.href = "desktop/index.html";
+    }
+  </script>
 </body>
 </html>
